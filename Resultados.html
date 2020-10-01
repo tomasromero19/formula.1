@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Noticias de F1</title>
+        <meta name="description" content="Encuentra las mejores noticias de Fórmula 1 aquí">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estilos.CSS"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    </head>
+    <body>
+        <Header>
+            <div class=myheader>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html"><img src="Pics/mini.png" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Menú <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Estadisticas.html">Estadísticas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Resultados.html">Resultados</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Multimedia.html">Multimedia</a>
+                </li>
+                </ul>
+                </span>
+                </div>
+            </nav>
+            </div>
+            <div>
+				<h1>Página de noticias de Fórmula 1</h1>
+			</div>
+		</header>
+        <section class=formula1>
+            <div class=formula1_title>
+            <h2>Fórmula 1</h2>
+            <div class="barra_titulo">NEWSLETTER</div>
+            </div>
+
+            <form action="gracias.html" class="form" method="post">
+                <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="name">Nombre</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="Pon tu nombre aqui">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputPassword4">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Dirección 1</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Calle Diaz">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Dirección 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, Piso, Bloque">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Provincia</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Elija Ciudad</option>
+                        <option value="item_1">Buenos Aires (Ciudad)</option>
+                        <option value="item_2">Buenos Aires (GBA)</option>
+                        <option value="item_3">Córdoba</option>
+                        <option value="item_4">Santa Fe</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Código postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    Deseo recibir la revista física
+                    </label>
+                  </div>
+                </div>
+                <input type="submit" class="btn btn-primary">
+            </form>
+        </section>
+        <footer>
+			<p>Hecha por los fans</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>
