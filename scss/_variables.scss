@@ -15,11 +15,9 @@ $normal: "only screen and (min-width: #{$screen_large})";
 $desktop: "only screen and (min-width: #{$screen_xlarge})";
 
 /* Fonts */ 
-$main-font: Arial, sans-serif;
+$main-font: 'Russo One', sans-serif;
+$main-font2: 'Roboto', sans-serif;
 
 /* Font sizes */
 $font-size-base: 16px !default;
 
-/* Colors */
-$black: #222222;
-$gray: #CCC;

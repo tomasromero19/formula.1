@@ -1,41 +1,191 @@
-:root {
-  font-size: $font-size-base;
+title {
+  background-color: $claro;
+  color: $rojo;
+  width: 550px ;
+  height: 40px;
 }
-html, body {
-  color: $black;
+
+h1 {
+  margin: 40px 0 0 0;
+}
+
+h2 {
+  color: $bordo;
+  background-image: linear-gradient(to left, $blanco);
+}
+
+h3 {
+  color: $rojo;
   font-family: $main-font;
-  font-size: .875rem;
-  font-weight: 400;
-  height: 100%;
+}
 
-  .authentication-bg {
-    background: $black;
-    font-size: .875rem;
-    overflow-x: hidden;
-    text-align: center;
-    width: 100%;
-  }
+h4 {
+  color:$blanco;
+  font-family: $main-font;
+  margin: 20px 0 20px 0;
+}
 
-  a {
-    &:hover {
-      text-decoration: none;
-    }
-  }
+.navi {
+  color:$blanco;
+  font-family: $main-font;
+  margin: 0 20px 0 20px;
+  background-image: linear-gradient(to left, $rojo);
+}
 
-  .footer-login {
-    bottom: 0;
-    color: $gray;
-    display: block;
-    padding: 20px 15px;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 100%;
+.nav {
+  margin: 0 0 20px 0;
+  
+}
 
-    .vidich-logo {
-      position: absolute;
-      bottom: 15px;
-      right: 45px; 
-    }
-  }
+.articlepage1 {
+  margin: 20px; 
+}
+
+.form {
+  margin: 20px; 
+}
+
+.table {
+  margin: 20px 0 0 0; 
+}
+
+
+p, .pagina {
+  color: $negro2;
+}
+ol li {
+  color: $marron;
+}
+
+ul {
+  font-family: $main-font;
+}
+
+h1,h2,.pagina {
+  font-family: $main-font;
+  text-align: center
+}
+
+p,thead,tbody,ol{
+  font-family: $main-font2;
+}
+
+ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+thead{
+  background-color: $marron2;
+  color: $blanco;
+}
+tbody {
+background-color: $beige;
+}
+
+textarea,label {
+  display:block;
+}
+
+input {
+  display: inline-block;
+}
+
+.myform {
+  font-family: $main-font2;
+  color: $blanco;
+  background-image: linear-gradient(to left, $oscuro , $gris2 ,$oscuro);
+  margin: 30px;
+}
+
+.anclaSubir {
+  color: $rojo;
+  font-family: $main-font;
+}
+
+.formula1 {
+  width: 100%;
+}
+.formula1_news {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.barra_titulo {
+  background-image:linear-gradient(to left, $negro, $rojo);
+  background-size: cover;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 60px;
+  font-family: $main-font;
+  color: $blanco;
+  margin: 20px 0 20px 0;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+.grid1 {
+  grid-column:1;
+}
+.grid2 {
+  grid-column:2;
+}
+.grid3 {
+  grid-column:3;
+}
+
+.gracias {
+  color: $rojo;
+  font-family: $main-font;
+  font-size: 40px;
+  width: 600px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+.myheader {
+  display: grid;
+}
+
+.logo {
+  grid-column:1;
+}
+
+.nav {
+  grid-column:2;
+}
+
+.row {
+  margin: 10px;
+}
+
+.lewis {
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+.white-space {
+  width: 50px;
+}
+
+@keyframes aparecer {
+  0% {
+      opacity: 0;
+}
+
+  100% {
+      opacity: 1;
+}
+}
+
+.content4footer {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
 }
